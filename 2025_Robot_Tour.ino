@@ -81,7 +81,7 @@ void MoveForward_25(){
  
 }
 
-
+//Function to move forward 50cm
 void MoveForward(){
 
   rightMotor.attach(10);
@@ -101,7 +101,7 @@ void MoveForward(){
  
 }
 
-
+//Function to rotate 90 degrees to the left
 void turnLeft(){
 
   rightMotor.attach(10);
@@ -127,7 +127,7 @@ void turnLeft(){
   leftMotor.detach();
 }
 
-
+//Function to rotate 90 degrees to the right
 void turnRight(){
 
   rightMotor.attach(10);
